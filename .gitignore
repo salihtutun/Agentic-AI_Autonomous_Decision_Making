@@ -1,0 +1,16 @@
+# Instructor-only. Never publish these.
+Instructor/
+Teaching/
+Contents/
+
+# Solution notebooks and quiz keys, wherever they appear.
+**/*Solution*
+**/*solution*
+**/Answer-Keys/
+**/Live-Fill-Keys.md
+
+# Local tooling
+.qodo/
+.netlify/
+__pycache__/
+.ipynb_checkpoints/
