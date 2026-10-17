@@ -109,7 +109,7 @@ def two_families():
         "Decide by calling a tool",
         "Act through search, CRM, or a ticket",
         "Feedback is a citation and a review",
-        "Weeks 1 and 2 (Monday)",
+        "Sessions 1 through 3",
     ]
     for i, line in enumerate(lines):
         label(ax, 0.7, 3.15 - i * 0.48, line, 11, INK, ha="left")
@@ -122,7 +122,7 @@ def two_families():
         "Decide with a learned policy",
         "Act with an order, price, or trade",
         "Feedback is a reward",
-        "Weeks 2 (Wednesday) through 5",
+        "Sessions 4 through 10",
     ]
     for i, line in enumerate(lines):
         label(ax, 6.7, 3.15 - i * 0.48, line, 11, INK, ha="left")
