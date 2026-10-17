@@ -1,6 +1,6 @@
 # Quiz 2 — RAG and bandits
 
-Due one hour before Session 3.
+Due one hour before Session 4. It covers Session 3.
 
 1. What does a citation do that a fluent answer does not?
 2. Give one reason a retrieved chunk can still be the wrong policy.

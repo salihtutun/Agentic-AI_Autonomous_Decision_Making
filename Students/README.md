@@ -8,8 +8,8 @@ Use this folder only. It does not contain quiz answers or solution notebooks.
 
 The course has 13 sessions. We meet twice a week. Session 1 is the first meeting.
 
-1. Watch the assigned videos.
-2. Submit the pre-lab quiz in `Quizzes/` at least one hour before Sessions 1, 3, 5, 7, 9, and 11. Late quizzes are not accepted except with an excused absence.
+1. Come to the session. The concepts are taught in the room. There are no lecture recordings.
+2. Submit the pre-lab quiz in `Quizzes/` at least one hour before the practice session of that module (Sessions 2, 4, 6, 8, 10, and 12). The quiz covers the concept session you just had. A late quiz is not accepted except with an excused absence.
 3. Open that session's notebook. Run the worked example, then type the cells marked **Fill this with me** while the instructor is teaching. Guess before you run.
 4. On the practice sessions (2, 4, 6, 8, 10, and 12), finish every `TODO` in class. Groups may be 1–3 students.
 5. After each practice session, complete that module's file in `Homework/`. Homework is individual unless the instructor says otherwise.

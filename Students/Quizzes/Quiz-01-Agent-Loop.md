@@ -1,6 +1,6 @@
 # Quiz 1 — The agent loop
 
-Due one hour before Session 1. Late quizzes are not accepted except with an excused absence.
+Due one hour before Session 2. It covers Session 1. Late quizzes are not accepted except with an excused absence.
 
 1. Put the agent loop in order: act, observe, feedback, decide.
 2. A model writes a polite refund email and never looks up the order. Is that an agent? Say why in one sentence.

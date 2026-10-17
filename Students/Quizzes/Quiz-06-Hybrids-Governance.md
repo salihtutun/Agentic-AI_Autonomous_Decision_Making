@@ -1,6 +1,6 @@
 # Quiz 6 — Hybrids and governance
 
-Due one hour before Session 11.
+Due one hour before Session 12. It covers Session 11.
 
 1. Describe one hybrid pattern: which system plans, and which system releases the frequent action?
 2. Who is accountable when an LLM suggestion and an RL order both touch the same decision?

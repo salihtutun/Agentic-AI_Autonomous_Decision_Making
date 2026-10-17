@@ -1,6 +1,6 @@
 # Quiz 3 — MDPs
 
-Due one hour before Session 5.
+Due one hour before Session 6. It covers Session 5.
 
 1. Name the five parts of an MDP used in this course.
 2. How is an inventory problem different from a bandit?
