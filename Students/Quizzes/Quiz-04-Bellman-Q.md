@@ -1,9 +1,5 @@
-# Quiz 4 — Bellman and Q-learning
+# Quiz 4 — Bellman, Monte Carlo, and TD
 
-Due one hour before Session 8. It covers Session 7.
+Due one hour before Session 8. It covers Session 7. A late quiz is not accepted except with an excused absence.
 
-1. In plain language, what does the value of a state mean?
-2. Why can dynamic programming be impossible on warehouse data even when the Bellman equation is clear?
-3. What is the difference between waiting for a Monte Carlo return and a one-step TD update?
-4. In Q-learning, what does ε-greedy do?
-5. What goes wrong if the stockout penalty is left out of the reward?
+This quiz is the multiple-choice quiz in Canvas. It has five questions. Take it there. This file does not contain the choices or the answers.

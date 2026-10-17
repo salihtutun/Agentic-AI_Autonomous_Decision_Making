@@ -1,9 +1,5 @@
-# Quiz 3 — MDPs
+# Quiz 3 — Markov decision processes
 
-Due one hour before Session 6. It covers Session 5.
+Due one hour before Session 6. It covers Session 5. A late quiz is not accepted except with an excused absence.
 
-1. Name the five parts of an MDP used in this course.
-2. How is an inventory problem different from a bandit?
-3. What does the discount factor do to tomorrow's reward?
-4. When is "units on hand" not a Markov state? Give one example of information you would have to add.
-5. What data must exist before you recommend RL for a repeated decision?
+This quiz is the multiple-choice quiz in Canvas. It has five questions. Take it there. This file does not contain the choices or the answers.
