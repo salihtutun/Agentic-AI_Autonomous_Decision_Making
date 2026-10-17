@@ -12,16 +12,16 @@ That uses Mermaid CLI (`npx @mermaid-js/mermaid-cli`) at 2x on a white backgroun
 
 | File | Used in |
 | --- | --- |
-| `agent-loop.png` | Week 1 Monday, the two-families note |
-| `two-families.png` | Week 1 Monday, Week 3 Wednesday, Week 7 |
-| `llm-tool-loop.png` | Week 1 Wednesday |
-| `rag-handoff.png` | Week 2 Monday |
-| `bandit.png` | Week 2 Wednesday |
-| `mdp-inventory.png` | Week 3 Monday |
-| `bellman.png` | Week 4 Monday |
-| `q-update.png` | Week 4 Wednesday |
-| `dqn.png` | Week 5 Monday and Wednesday |
-| `hybrid.png` | Week 6 Monday |
-| `scorecard.png` | Week 6 Wednesday |
+| `agent-loop.png` | Session 1, the two-families note |
+| `two-families.png` | Sessions 1, 6, and 13 |
+| `llm-tool-loop.png` | Session 2 |
+| `rag-handoff.png` | Session 3 |
+| `bandit.png` | Session 4 |
+| `mdp-inventory.png` | Session 5 |
+| `bellman.png` | Session 7 |
+| `q-update.png` | Session 8 |
+| `dqn.png` | Sessions 9 and 10 |
+| `hybrid.png` | Session 11 |
+| `scorecard.png` | Session 12 |
 
 The old lecture decks in `Contents/` are the previous deep-RL course. Their pictures are stock art or screenshots, so they are not copied into this folder.

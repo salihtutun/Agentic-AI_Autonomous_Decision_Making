@@ -26,11 +26,11 @@ Session 13 is the project meeting. Use `07-Module-7-Project/Session-13.ipynb`.
 | Homework | 20% | `Homework/` |
 | Project | 30% | `07-Module-7-Project/` |
 
-Canvas takes 10% off for each late day on labs, homework, and the project. After five days the work is not accepted. Quizzes due before lab are not in that late window.
+Canvas takes 10% off for each late day on labs, homework, and the project. After five days the work is not accepted. Quizzes due before the practice session are not in that late window.
 
 ## How to run the notebooks
 
-Google Colab or local Python with NumPy. Run cells from the top. The examples are simulated course cases, not data from a firm. Do not paste confidential data into a public tool.
+Google Colab or local Python with NumPy. Run cells from the top. The examples are simulated course cases, not data from a firm. Do not paste confidential data into a public tool. Session 1 decides with a local stand-in. If the instructor sets `GEMINI_API_KEY` for that session, the same step can ask Gemini which tool to call. Class still runs when the key is absent.
 
 ## Use of AI tools
 
