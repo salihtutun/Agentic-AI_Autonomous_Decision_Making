@@ -10,7 +10,7 @@ This repository is the **student** set. It has Sessions 1–13, homework, quizze
 2. Read [Students/Two-Agent-Families.md](Students/Two-Agent-Families.md). The course teaches **LLM-based agents** and **RL-based agents** as two ways to run the same loop: observe, decide, act, feedback.
 3. Open the session notebook. Run it from the top and fill the cells marked **Fill this with me** in class.
 
-Figures are in [assets/](assets/). Open the notebooks from this repository so those pictures resolve. The course page is [https://salihtutun.github.io/dat5668/](https://salihtutun.github.io/dat5668/).
+Figures are in [assets/](assets/). Open the notebooks from this repository so those pictures resolve. The course page is [https://salihtutun.github.io/dat5668/](https://salihtutun.github.io/dat5668/). The syllabus is [https://salihtutun.github.io/dat5668/syllabus.html](https://salihtutun.github.io/dat5668/syllabus.html).
 
 ## What you will do
 
