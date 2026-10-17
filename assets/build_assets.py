@@ -1,9 +1,11 @@
-"""Draw course figures. Labels are set in code so they stay accurate.
+"""Earlier matplotlib figures. Kept as a fallback.
 
-Run from anywhere: python assets/build_assets.py
-Figures land in this folder as PNG files.
+The published PNGs come from assets/mermaid/*.mmd.
+Redraw those with: python assets/render_mermaid.py
+This script overwrites those PNGs only when passed --matplotlib.
 """
 
+import sys
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -332,4 +334,10 @@ def main():
 
 
 if __name__ == "__main__":
+    if "--matplotlib" not in sys.argv:
+        raise SystemExit(
+            "Published figures are Mermaid diagrams. "
+            "Run python assets/render_mermaid.py. "
+            "Pass --matplotlib only to restore the older drawings."
+        )
     main()

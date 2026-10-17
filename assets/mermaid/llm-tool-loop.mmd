@@ -1,0 +1,15 @@
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Arial, sans-serif','fontSize':'16px','lineColor':'#1B3A4B'}}}%%
+flowchart LR
+    T["Ticket<br/>Language in"] --> M["Model<br/>Choose the next tool"]
+    M --> TOOLS["Tools<br/>Policy and order amount"]
+    TOOLS --> MEM["Memory<br/>Store the tool result"]
+    MEM -->|call another tool| M
+    MEM -->|done| FIN["Finish<br/>Refund, refuse, or escalate"]
+    classDef navy fill:#10243E,stroke:#0E2A43,color:#ffffff
+    classDef blue fill:#1F6FEB,stroke:#0E2A43,color:#ffffff
+    classDef gold fill:#8A6A2F,stroke:#5C4718,color:#ffffff
+    classDef red fill:#B42318,stroke:#7A1A12,color:#ffffff
+    class T navy
+    class M,TOOLS blue
+    class MEM gold
+    class FIN red

@@ -1,6 +1,6 @@
 # Quiz 5 — Deep Q-learning
 
-Due one hour before Week 5 Monday.
+Due one hour before Session 9.
 
 1. Why does a Q-table fail when the state space grows?
 2. What problem does experience replay address?

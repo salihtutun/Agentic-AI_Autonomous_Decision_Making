@@ -1,6 +1,6 @@
 # Quiz 4 — Bellman and Q-learning
 
-Due one hour before Week 4 Monday.
+Due one hour before Session 7.
 
 1. In plain language, what does the value of a state mean?
 2. Why can dynamic programming be impossible on warehouse data even when the Bellman equation is clear?

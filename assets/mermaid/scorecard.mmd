@@ -1,0 +1,38 @@
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Arial, sans-serif','fontSize':'15px','lineColor':'#1B3A4B'}}}%%
+flowchart TB
+    TITLE["One scorecard for both families"]
+    TITLE --> TASK
+    TITLE --> COST
+    TITLE --> SAFE
+    TITLE --> KPI
+    subgraph TASK["Task success"]
+        direction LR
+        T1["LLM: exceptions handled cleanly"]
+        T2["RL: days the order was right"]
+    end
+    subgraph COST["Cost and latency"]
+        direction LR
+        C1["LLM: tool calls, often slower"]
+        C2["RL: a fast learned policy"]
+    end
+    subgraph SAFE["Safety and grounding"]
+        direction LR
+        S1["LLM: citation must be real"]
+        S2["RL: stay inside capacity and vetoes"]
+    end
+    subgraph KPI["Business KPI"]
+        direction LR
+        K1["Same stockout or service number for both"]
+    end
+    classDef title fill:#10243E,stroke:#0E2A43,color:#ffffff
+    classDef llm fill:#1F6FEB,stroke:#0E2A43,color:#ffffff
+    classDef rl fill:#B42318,stroke:#7A1A12,color:#ffffff
+    classDef both fill:#1F7A4D,stroke:#145536,color:#ffffff
+    class TITLE title
+    class T1,C1,S1 llm
+    class T2,C2,S2 rl
+    class K1 both
+    style TASK fill:#F7F9FC,stroke:#1F6FEB,color:#10243E
+    style COST fill:#F7F9FC,stroke:#8A6A2F,color:#10243E
+    style SAFE fill:#F7F9FC,stroke:#B42318,color:#10243E
+    style KPI fill:#F7F9FC,stroke:#1F7A4D,color:#10243E

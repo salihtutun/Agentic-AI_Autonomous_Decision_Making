@@ -2,7 +2,13 @@
 
 Diagrams for DAT 5668. Notebooks in `Students/`, `Teaching/`, and `Instructor/` load them with `../../assets/<file>.png`. `Students/Two-Agent-Families.md` uses `../assets/`.
 
-Redraw everything with `python assets/build_assets.py`. Edit that script rather than the PNG files. The labels are written in code so they stay accurate.
+The source for each figure is a Mermaid file in `mermaid/`. Redraw the PNGs with:
+
+```
+python assets/render_mermaid.py
+```
+
+That uses Mermaid CLI (`npx @mermaid-js/mermaid-cli`) at 2x on a white background. The PNG names stay the same so the notebooks do not need new links. `build_assets.py` is the older matplotlib set and does not overwrite these files unless you pass `--matplotlib`.
 
 | File | Used in |
 | --- | --- |
@@ -17,3 +23,5 @@ Redraw everything with `python assets/build_assets.py`. Edit that script rather 
 | `dqn.png` | Week 5 Monday and Wednesday |
 | `hybrid.png` | Week 6 Monday |
 | `scorecard.png` | Week 6 Wednesday |
+
+The old lecture decks in `Contents/` are the previous deep-RL course. Their pictures are stock art or screenshots, so they are not copied into this folder.

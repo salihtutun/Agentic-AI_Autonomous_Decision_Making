@@ -1,0 +1,14 @@
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Arial, sans-serif','fontSize':'18px','lineColor':'#1B3A4B','primaryTextColor':'#10243E'}}}%%
+flowchart LR
+    O["Observe<br/>Read the situation"] --> D["Decide<br/>Pick the next action"]
+    D --> A["Act<br/>Change the world"]
+    A --> F["Feedback<br/>See what happened"]
+    F -.->|next observation| O
+    classDef observe fill:#1F6FEB,stroke:#0E2A43,color:#ffffff,stroke-width:1px
+    classDef decide fill:#10243E,stroke:#0E2A43,color:#ffffff,stroke-width:1px
+    classDef act fill:#B42318,stroke:#7A1A12,color:#ffffff,stroke-width:1px
+    classDef feedback fill:#1F7A4D,stroke:#145536,color:#ffffff,stroke-width:1px
+    class O observe
+    class D decide
+    class A act
+    class F feedback

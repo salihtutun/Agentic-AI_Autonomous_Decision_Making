@@ -4,15 +4,17 @@ Agentic AI: Autonomous Decision-Making. Fall 2026.
 
 Use this folder only. It does not contain quiz answers or solution notebooks.
 
-## Each week
+## Each session
+
+The course has 13 sessions. We meet twice a week. Session 1 is the first meeting.
 
 1. Watch the assigned videos.
-2. Submit the pre-lab quiz in `Quizzes/` at least one hour before Monday. Late quizzes are not accepted except with an excused absence.
-3. **Monday:** open `Monday-Fundamentals.ipynb`. Run the worked example, then type the cells marked **Fill this with me** while the instructor is teaching. Guess before you run.
-4. **Wednesday:** open `Wednesday-Practice.ipynb`. Finish every `TODO` and every **Fill this with me** cell in class, together. Groups may be 1–3 students.
-5. After Wednesday, complete that week's file in `Homework/`. Homework is individual unless the instructor says otherwise.
+2. Submit the pre-lab quiz in `Quizzes/` at least one hour before Sessions 1, 3, 5, 7, 9, and 11. Late quizzes are not accepted except with an excused absence.
+3. Open that session's notebook. Run the worked example, then type the cells marked **Fill this with me** while the instructor is teaching. Guess before you run.
+4. On the practice sessions (2, 4, 6, 8, 10, and 12), finish every `TODO` in class. Groups may be 1–3 students.
+5. After each practice session, complete that module's file in `Homework/`. Homework is individual unless the instructor says otherwise.
 
-Module 7 is one project meeting. Use `07-Module-7-Project/`.
+Session 13 is the project meeting. Use `07-Module-7-Project/Session-13.ipynb`.
 
 ## What to submit
 
@@ -20,7 +22,7 @@ Module 7 is one project meeting. Use `07-Module-7-Project/`.
 | --- | --- | --- |
 | Lab participation | 5% | In class |
 | Quizzes (lowest score dropped) | 30% | `Quizzes/` |
-| In-class Wednesday labs | 15% | Each `Wednesday-Practice.ipynb` |
+| In-class practice | 15% | Sessions 2, 4, 6, 8, 10, and 12 |
 | Homework | 20% | `Homework/` |
 | Project | 30% | `07-Module-7-Project/` |
 
@@ -36,16 +38,22 @@ Using the agent code in an assigned lab is allowed. Using Copilot, ChatGPT, or a
 
 ## Two families
 
-Read `Two-Agent-Families.md` before Week 1. Every session is labeled **LLM-based agent**, **RL-based agent**, or **both**. Figures for those sessions are in the course `assets/` folder, one level above `Students/`. Open the notebooks from this project so the pictures resolve.
+Read `Two-Agent-Families.md` before Session 1. Every session is labeled **LLM-based agent**, **RL-based agent**, or **both**. Figures for those sessions are in the course `assets/` folder, one level above `Students/`. Open the notebooks from this project so the pictures resolve.
 
 ## Schedule
 
-| Week | Monday | Wednesday | Family | Homework |
-| --- | --- | --- | --- | --- |
-| 1 | Agent loop | Tool-using agent | Both, then LLM-based | Refund cap |
-| 2 | RAG and handoffs | Bandits | LLM-based, then RL-based | A fourth offer |
-| 3 | Inventory MDP | Go/no-go memo | RL-based, then both | Pricing memo |
-| 4 | Bellman, DP, MC, TD | Q-learning | RL-based | Reward diagnostic |
-| 5 | Deep Q-learning concepts | DQN vs base-stock | RL-based | Exploration diagnostic |
-| 6 | Hybrid architecture | Scorecard and governance | Both | A second pilot |
-| 7 | Project presentations | — | LLM-based, RL-based, or hybrid | Report |
+| Session | Topic | Family | Homework |
+| --- | --- | --- | --- |
+| 1 | Agent loop | Both | |
+| 2 | Tool-using agent | LLM-based | Refund cap |
+| 3 | RAG and handoffs | LLM-based | |
+| 4 | Bandits | RL-based | A fourth offer |
+| 5 | Inventory MDP | RL-based | |
+| 6 | Go/no-go memo | Both | Pricing memo |
+| 7 | Bellman, DP, MC, TD | RL-based | |
+| 8 | Q-learning | RL-based | Reward diagnostic |
+| 9 | Deep Q-learning concepts | RL-based | |
+| 10 | DQN vs base-stock | RL-based | Exploration diagnostic |
+| 11 | Hybrid architecture | Both | |
+| 12 | Scorecard and governance | Both | A second pilot |
+| 13 | Project presentations | LLM-based, RL-based, or hybrid | Report |

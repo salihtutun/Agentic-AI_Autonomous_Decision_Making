@@ -1,0 +1,27 @@
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Arial, sans-serif','fontSize':'16px','lineColor':'#1B3A4B'}}}%%
+flowchart TB
+    LOOP["Same loop for both families<br/>Observe, decide, act, feedback"]
+    LOOP --> LLM
+    LOOP --> RL
+    subgraph LLM["LLM-based agent"]
+        direction TB
+        L1["Input is language or a document"]
+        L2["The model chooses a tool"]
+        L3["Feedback is a citation and a review"]
+        L1 --> L2 --> L3
+    end
+    subgraph RL["RL-based agent"]
+        direction TB
+        R1["Input is a repeated numeric state"]
+        R2["A learned policy chooses the action"]
+        R3["Feedback is a reward"]
+        R1 --> R2 --> R3
+    end
+    classDef loop fill:#10243E,stroke:#0E2A43,color:#ffffff
+    classDef llm fill:#1F6FEB,stroke:#0E2A43,color:#ffffff
+    classDef rl fill:#B42318,stroke:#7A1A12,color:#ffffff
+    class LOOP loop
+    class L1,L2,L3 llm
+    class R1,R2,R3 rl
+    style LLM fill:#E8F1FF,stroke:#1F6FEB,stroke-width:1px,color:#10243E
+    style RL fill:#FDECEC,stroke:#B42318,stroke-width:1px,color:#10243E

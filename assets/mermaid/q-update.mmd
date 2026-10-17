@@ -1,0 +1,11 @@
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Arial, sans-serif','fontSize':'16px','lineColor':'#1B3A4B'}}}%%
+flowchart LR
+    Q["Q of state and action"] --> TARGET["Target<br/>Reward plus gamma<br/>times best Q of the next state"]
+    TARGET --> UPDATE["Move Q toward that target"]
+    EPS["Epsilon-greedy<br/>Sometimes try a random order"] --> Q
+    classDef navy fill:#10243E,stroke:#0E2A43,color:#ffffff
+    classDef red fill:#B42318,stroke:#7A1A12,color:#ffffff
+    classDef blue fill:#1F6FEB,stroke:#0E2A43,color:#ffffff
+    class Q navy
+    class TARGET red
+    class UPDATE,EPS blue

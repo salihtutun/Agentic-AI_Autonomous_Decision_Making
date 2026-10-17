@@ -1,6 +1,6 @@
 # Quiz 3 — MDPs
 
-Due one hour before Week 3 Monday.
+Due one hour before Session 5.
 
 1. Name the five parts of an MDP used in this course.
 2. How is an inventory problem different from a bandit?

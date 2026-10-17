@@ -1,0 +1,18 @@
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Arial, sans-serif','fontSize':'16px','lineColor':'#1B3A4B'}}}%%
+flowchart LR
+    A["Offer A<br/>true rate 0.20"] 
+    B["Offer B<br/>true rate 0.55"]
+    C["Offer C<br/>true rate 0.35"]
+    A --> AGENT
+    B --> AGENT
+    C --> AGENT
+    AGENT["RL agent<br/>Shows one offer"] --> REWARD["Reward<br/>Accept or not"]
+    HIDDEN["The other two rewards<br/>stay hidden"] -.-> AGENT
+    classDef offer fill:#1F6FEB,stroke:#0E2A43,color:#ffffff
+    classDef best fill:#B42318,stroke:#7A1A12,color:#ffffff
+    classDef agent fill:#10243E,stroke:#0E2A43,color:#ffffff
+    classDef note fill:#F4F7FB,stroke:#D0D7E2,color:#10243E
+    class A,C offer
+    class B best
+    class AGENT,REWARD agent
+    class HIDDEN note
