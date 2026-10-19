@@ -1,14 +1,14 @@
-%%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Arial, sans-serif','fontSize':'16px','lineColor':'#1B3A4B'}}}%%
-flowchart LR
-    EMAIL["Exception email"] --> LLM["LLM-based agent<br/>Proposes an override"]
-    LLM --> CTRL["Controller<br/>Person or hard rule<br/>Can veto"]
-    CTRL --> RL["RL-based agent<br/>Releases the daily order"]
-    RL --> KPI["This system owns the KPI"]
+flowchart TB
+    STOCK["Stock on hand"] --> FAST["Fast policy<br/>Releases the daily order"]
+    FAST --> KPI["This release owns the KPI"]
+    EMAIL["Exception email<br/>Not on every order"] --> LLM["LLM-based agent<br/>Proposes an override"]
+    LLM --> CTRL["Controller<br/>Person or hard rule can veto"]
+    CTRL -->|accepted change| FAST
     classDef blue fill:#1F6FEB,stroke:#0E2A43,color:#ffffff
     classDef gold fill:#8A6A2F,stroke:#5C4718,color:#ffffff
     classDef red fill:#B42318,stroke:#7A1A12,color:#ffffff
     classDef navy fill:#10243E,stroke:#0E2A43,color:#ffffff
+    class STOCK,FAST red
     class EMAIL,LLM blue
     class CTRL gold
-    class RL red
     class KPI navy

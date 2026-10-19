@@ -1,9 +1,8 @@
-%%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Arial, sans-serif','fontSize':'16px','lineColor':'#1B3A4B'}}}%%
 flowchart LR
     S["State<br/>Stock on hand"] --> ACT["Action<br/>Order 0, 1, or 2"]
-    ACT --> DEM["Demand<br/>Random, then sales"]
+    ACT --> DEM["Demand<br/>Then sales"]
     DEM --> NEXT["Next state<br/>Ending stock"]
-    DEM --> PAY["Reward<br/>Margin minus holding<br/>minus stockout penalty"]
+    DEM --> PAY["Reward<br/>Margin, minus holding,<br/>minus stockouts"]
     NEXT -.->|tomorrow's state| S
     classDef blue fill:#1F6FEB,stroke:#0E2A43,color:#ffffff
     classDef navy fill:#10243E,stroke:#0E2A43,color:#ffffff

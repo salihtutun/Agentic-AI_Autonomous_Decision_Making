@@ -8,7 +8,7 @@ The source for each figure is a Mermaid file in `mermaid/`. Redraw the PNGs with
 python assets/render_mermaid.py
 ```
 
-That uses Mermaid CLI (`npx @mermaid-js/mermaid-cli`) at 2x on a white background. The PNG names stay the same so the notebooks do not need new links. `build_assets.py` is the older matplotlib set and does not overwrite these files unless you pass `--matplotlib`.
+That uses Mermaid CLI (`npx @mermaid-js/mermaid-cli`) at 2x on a white background, with the shared style in `mermaid/config.json`. The PNG names stay the same so the notebooks do not need new links. `build_assets.py` is the older matplotlib set and does not overwrite these files unless you pass `--matplotlib`.
 
 | File | Used in |
 | --- | --- |

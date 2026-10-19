@@ -1,11 +1,10 @@
-%%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Arial, sans-serif','fontSize':'16px','lineColor':'#1B3A4B'}}}%%
 flowchart LR
     Q["Question"] --> C["Policy chunks"]
-    C --> R["Researcher<br/>Returns a citation"]
-    R --> A["Analyst<br/>Recommends from that citation"]
+    C --> R["Researcher<br/>Citation, or a miss"]
+    R --> A["Analyst<br/>Uses only that citation"]
     A --> V{"Reviewer<br/>Is the citation real?"}
     V -->|yes| GO["Release the answer"]
-    V -->|no| STOP["Stop the handoff"]
+    V -->|no| STOP["Do not release"]
     classDef blue fill:#1F6FEB,stroke:#0E2A43,color:#ffffff
     classDef navy fill:#10243E,stroke:#0E2A43,color:#ffffff
     classDef gold fill:#8A6A2F,stroke:#5C4718,color:#ffffff

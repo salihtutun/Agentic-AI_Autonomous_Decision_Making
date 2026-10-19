@@ -1,18 +1,13 @@
-%%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Arial, sans-serif','fontSize':'16px','lineColor':'#1B3A4B'}}}%%
-flowchart LR
-    A["Offer A<br/>true rate 0.20"] 
-    B["Offer B<br/>true rate 0.55"]
-    C["Offer C<br/>true rate 0.35"]
-    A --> AGENT
-    B --> AGENT
-    C --> AGENT
-    AGENT["RL agent<br/>Shows one offer"] --> REWARD["Reward<br/>Accept or not"]
-    HIDDEN["The other two rewards<br/>stay hidden"] -.-> AGENT
-    classDef offer fill:#1F6FEB,stroke:#0E2A43,color:#ffffff
-    classDef best fill:#B42318,stroke:#7A1A12,color:#ffffff
-    classDef agent fill:#10243E,stroke:#0E2A43,color:#ffffff
+flowchart TB
+    RATES["True rates, unknown to the agent<br/>A 0.20 · B 0.55 · C 0.35"]
+    RATES --> PICK["ε-greedy shows exactly one offer"]
+    PICK --> SEEN["Reward observed<br/>Accept 1 or decline 0"]
+    PICK -.-> HIDDEN["The other two rewards<br/>are never observed"]
+    SEEN --> MEAN["Update only that offer's sample mean"]
+    classDef navy fill:#10243E,stroke:#0E2A43,color:#ffffff
+    classDef blue fill:#1F6FEB,stroke:#0E2A43,color:#ffffff
+    classDef red fill:#B42318,stroke:#7A1A12,color:#ffffff
     classDef note fill:#F4F7FB,stroke:#D0D7E2,color:#10243E
-    class A,C offer
-    class B best
-    class AGENT,REWARD agent
+    class RATES,PICK navy
+    class SEEN,MEAN blue
     class HIDDEN note

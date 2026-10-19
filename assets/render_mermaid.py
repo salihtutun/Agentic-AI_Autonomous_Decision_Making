@@ -8,6 +8,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 SRC = HERE / "mermaid"
+CONFIG = SRC / "config.json"
 
 
 def render(path):
@@ -17,6 +18,8 @@ def render(path):
             "npx.cmd",
             "--yes",
             "@mermaid-js/mermaid-cli",
+            "-c",
+            str(CONFIG),
             "-i",
             str(path),
             "-o",

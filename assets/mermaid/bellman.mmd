@@ -1,14 +1,10 @@
-%%{init: {'theme':'base','themeVariables':{'fontFamily':'Segoe UI, Arial, sans-serif','fontSize':'16px','lineColor':'#1B3A4B'}}}%%
 flowchart LR
-    V["V of this stock<br/>Value if we continue"] --> B["Bellman backup<br/>Average over known demand"]
-    B --> BEST["Best order<br/>Maximum over actions"]
-    NOTE["Needs the demand model.<br/>Q-learning does not."]
-    BEST --- NOTE
+    NOW["This order's reward"] --> NEXT["Plus γ times<br/>V of the next stock"]
+    NEXT --> AVG["Average over<br/>known demand"]
+    AVG --> BEST["Best order<br/>The maximum average"]
     classDef blue fill:#1F6FEB,stroke:#0E2A43,color:#ffffff
     classDef navy fill:#10243E,stroke:#0E2A43,color:#ffffff
     classDef green fill:#1F7A4D,stroke:#145536,color:#ffffff
-    classDef note fill:#F4F7FB,stroke:#D0D7E2,color:#10243E
-    class V blue
-    class B navy
+    class NOW blue
+    class NEXT,AVG navy
     class BEST green
-    class NOTE note
