@@ -14,7 +14,7 @@ The course has 13 sessions. We meet twice a week. Session 1 is the first meeting
 4. On the practice sessions (2, 4, 6, 8, 10, and 12), finish every `TODO` in class. Groups may be 1–3 students.
 5. After each practice session, complete that module's file in `Homework/`. Homework is individual unless the instructor says otherwise.
 
-Session 13 is the project meeting. Use `07-Module-7-Project/Session-13.ipynb`.
+Session 13 is the project meeting. Pick any real business problem, design an agent, and run it. Use `07-Module-7-Project/Session-13.ipynb` and `07-Module-7-Project/Report-Template.md`. Public or simulated data only.
 
 ## What to submit
 

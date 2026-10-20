@@ -1,6 +1,6 @@
 # Two agent families, one course
 
-Agentic AI in this course means a system that **observes, decides, acts, and takes feedback** toward a goal. We teach two ways to build that system. A project may use either family, or both.
+Agentic AI in this course means a system that **observes, decides, acts, and takes feedback** toward a goal. We teach two ways to build that system. For the project, you pick any real business problem and may use either family, or both.
 
 ![The agent loop](../assets/agent-loop.png)
 
