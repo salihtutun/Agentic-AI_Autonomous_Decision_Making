@@ -10,15 +10,15 @@ Starter card used, if any (or write “own problem”):
 
 Family (LLM, RL, or hybrid):
 
-Data (public source, or a simulated dataset you built — never confidential employer files):
+Data and tools (simulated dataset, public data, or a free API from [public-apis](https://github.com/public-apis/public-apis) — never confidential employer files):
 
-## 1. The problem and the agent
+## 1. The problem and the artifact
 
-In a few sentences: what decision is being made, who is affected, and what “solved” means in a number the firm already tracks.
+In a few sentences: what decision is being made, who is affected, and what “solved” means in a number the firm already tracks. Then say how someone could run this notebook again on a new day of work.
 
 ## 2. Agent loop
 
-Name what happens in this process. Do not paste the Session 1 definition.
+Name what happens in this process. Do not paste the Session 1 definition. Name the session that taught each step if it helps (tools, retrieval, bandits, MDP, Q-learning, hybrid, scorecard).
 
 - Observe:
 - Decide:

@@ -14,7 +14,7 @@ The course has 13 sessions. We meet twice a week. Session 1 is the first meeting
 4. On the practice sessions (2, 4, 6, 8, 10, and 12), finish every `TODO` in class. Groups may be 1–3 students.
 5. After each practice session, complete that module's file in `Homework/`. Homework is individual unless the instructor says otherwise.
 
-Session 13 is the project meeting. Pick any real business problem, design an agent, and run it. Use `07-Module-7-Project/Session-13.ipynb` and `07-Module-7-Project/Report-Template.md`. Public or simulated data only.
+Session 13 is the project meeting. Pick any real business problem, design a reusable agent artifact, and run it. Use `07-Module-7-Project/Session-13.ipynb` and `07-Module-7-Project/Report-Template.md`. Data may be simulated, public, or a free API from [public-apis](https://github.com/public-apis/public-apis).
 
 ## What to submit
 
@@ -30,7 +30,7 @@ Canvas takes 10% off for each late day on labs, homework, and the project. After
 
 ## How to run the notebooks
 
-Google Colab or local Python with NumPy. Run cells from the top. The examples are simulated course cases, not data from a firm. Do not paste confidential data into a public tool. Session 1 decides with a local stand-in. If the instructor sets `GEMINI_API_KEY` for that session, the same step can ask Gemini which tool to call. Class still runs when the key is absent.
+Google Colab or local Python with NumPy. Run cells from the top. The examples are simulated course cases, not data from a firm. Do not paste confidential data into a public tool. Session 1 decides with a local stand-in. If the instructor sets `GEMINI_API_KEY` for that session, the same step can ask Gemini which tool to call. Class still runs when the key is absent. For the project, you may call a free API from [public-apis](https://github.com/public-apis/public-apis); prefer rows marked `No` under Auth.
 
 ## Use of AI tools
 
