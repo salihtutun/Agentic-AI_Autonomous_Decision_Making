@@ -1,0 +1,7 @@
+complaint_id,date_received,product,issue,sub_issue,company,state,company_response,ticket_text
+9999983,2024-09-03,Credit card,Getting a credit card,Card opened without my consent or knowledge,JPMORGAN CHASE & CO.,MA,Closed with explanation,Card opened without my consent or knowledge.
+9999962,2024-09-03,Credit card,Incorrect information on your report,Account status incorrect,EQUIFAX INC.,IL,Closed with non-monetary relief,Incorrect information on my credit report. Account status incorrect.
+9999899,2024-09-03,Credit card,Incorrect information on your report,Account status incorrect,EQUIFAX INC.,TX,Closed with explanation,Incorrect information on my credit report. Account status incorrect.
+9999836,2024-09-02,Credit card,Incorrect information on your report,Account status incorrect,TRANSUNION INTERMEDIATE HOLDINGS INC.,CA,Closed with non-monetary relief,Incorrect information on my credit report. Account status incorrect.
+99998,2012-06-12,Credit card,Advertising and marketing,,CAPITAL ONE FINANCIAL CORPORATION,WA,Closed with explanation,Credit card advertising and marketing.
+9999791,2024-09-03,Credit card,Incorrect information on your report,Account status incorrect,EQUIFAX INC.,FL,Closed with non-monetary relief,Incorrect information on my credit report. Account status incorrect.
