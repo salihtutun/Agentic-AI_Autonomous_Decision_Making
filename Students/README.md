@@ -10,11 +10,11 @@ The course has 13 sessions. We meet twice a week. Session 1 is the first meeting
 
 1. Come to the session. The concepts are taught in the room. There are no lecture recordings.
 2. Submit the pre-lab quiz in `Quizzes/` at least one hour before the practice session of that module (Sessions 2, 4, 6, 8, 10, and 12). The quiz covers the concept session you just had. A late quiz is not accepted except with an excused absence.
-3. Open that session's notebook. Run the worked example, then type the cells marked **Fill this with me** while the instructor is teaching. Guess before you run.
-4. On the practice sessions (2, 4, 6, 8, 10, and 12), finish every `TODO` in class. Groups may be 1–3 students.
+3. Open that session's notebook when the instructor says so. Run the **Run with me** cells from the top. Type the cells marked **Fill this with me** while the instructor is teaching. Guess before you run. Those cells start empty on purpose.
+4. On the practice sessions (2, 4, 6, 8, 10, and 12), finish every `TODO` in class. Search the notebook for `TODO`. Groups may be 1–3 students.
 5. After each practice session, complete that module's file in `Homework/`. Homework is individual unless the instructor says otherwise.
 
-Session 13 is the project meeting. Pick any real business problem, design a reusable agent artifact, and run it. Use `07-Module-7-Project/Session-13.ipynb` and `07-Module-7-Project/Report-Template.md`. Data may be simulated, public, or a free API from [public-apis](https://github.com/public-apis/public-apis).
+Session 13 is the project meeting. Pick any real business problem, design a reusable agent artifact, and run it. Use `07-Module-7-Project/Session-13.ipynb` and `07-Module-7-Project/Report-Template.md`. Data may be simulated, public, or a free API from [public-apis](https://github.com/public-apis/public-apis). A fitted sklearn, XGBoost, or DAT 5565 Keras model may be a tool the agent calls; a prediction-only notebook is not the project.
 
 ## What to submit
 
@@ -30,21 +30,23 @@ Canvas takes 10% off for each late day on labs, homework, and the project. After
 
 ## How to run the notebooks
 
-Google Colab or local Python with NumPy. Run cells from the top. The examples are simulated course cases, not data from a firm. Do not paste confidential data into a public tool. Session 1 decides with a local stand-in. If the instructor sets `GEMINI_API_KEY` for that session, the same step can ask Gemini which tool to call. Class still runs when the key is absent. For the project, you may call a free API from [public-apis](https://github.com/public-apis/public-apis); prefer rows marked `No` under Auth.
+Google Colab or local Python with NumPy. Run cells from the top. The examples are simulated course cases, not data from a firm. Do not paste confidential data into a public tool. Session 1 decides with a local stand-in. If the instructor sets `GEMINI_API_KEY` for that session, the same step can ask Gemini which tool to call. Class still runs when the key is absent. For the project, you may call a free API from [public-apis](https://github.com/public-apis/public-apis); prefer rows marked `No` under Auth. You may also call a fitted machine-learning model as a tool.
 
 ## Use of AI tools
 
 Using the agent code in an assigned lab is allowed. Using Copilot, ChatGPT, or a similar tool to write your quiz, your homework write-up, or your project report is not allowed unless that assignment says you may, and then you must cite how you used it. Submitting an AI-generated write-up as your own work is a violation of the academic integrity policy in the syllabus.
 
-## Two families
+## Two families, one loop
 
-Read `Two-Agent-Families.md` before Session 1. Every session is labeled **LLM-based agent**, **RL-based agent**, or **both**. Figures for those sessions are in the course `assets/` folder, one level above `Students/`. Open the notebooks from this project so the pictures resolve.
+Read `Two-Agent-Families.md` before Session 1. The agent gets a state, sends an action to an environment, and gets a reward or penalty plus the next state. That is RL. A language model can sit in the same loop. You already know Python and DAT 5565 models; they are tools that help form the state, not the agent. We evaluate every agent against a baseline.
+
+Every session is labeled **LLM-based agent**, **RL-based agent**, or **both**. Figures for those sessions are in the course `assets/` folder, one level above `Students/`. Open the notebooks from this project so the pictures resolve.
 
 ## Schedule
 
 | Session | Topic | Family | Homework |
 | --- | --- | --- | --- |
-| 1 | Agent loop | Both | |
+| 1 | Agent loop: state, action, environment, reward | Both | |
 | 2 | Tool-using agent | LLM-based | Refund cap |
 | 3 | RAG and handoffs | LLM-based | |
 | 4 | Bandits | RL-based | A fourth offer |
@@ -55,5 +57,5 @@ Read `Two-Agent-Families.md` before Session 1. Every session is labeled **LLM-ba
 | 9 | Deep Q-learning concepts | RL-based | |
 | 10 | DQN vs base-stock | RL-based | Exploration diagnostic |
 | 11 | Hybrid architecture | Both | |
-| 12 | Scorecard and governance | Both | A second pilot |
+| 12 | Evaluate both families on one scorecard | Both | A second pilot |
 | 13 | Project presentations | LLM-based, RL-based, or hybrid | Report |
