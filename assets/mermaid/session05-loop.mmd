@@ -1,0 +1,16 @@
+flowchart LR
+    subgraph AGENT["Agent"]
+      O["observe<br/>state s"]
+      P["decide / policy<br/>action a"]
+      O --> P
+    end
+    subgraph ENV["Environment"]
+      D["Home-and-lifestyle shelf<br/>demand d from invoices"]
+    end
+    P -->|order a| D
+    D -->|reward r + next state s'| O
+    classDef blue fill:#1F6FEB,stroke:#0E2A43,color:#ffffff
+    classDef navy fill:#10243E,stroke:#0E2A43,color:#ffffff
+    classDef gold fill:#8A6A2F,stroke:#5C4718,color:#ffffff
+    class O,P blue
+    class D gold

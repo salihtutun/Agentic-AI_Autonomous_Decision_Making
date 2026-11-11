@@ -1,0 +1,17 @@
+flowchart TD
+    S["1. observe<br/>s = stock on hand"]
+    A["2. decide / policy<br/>a = order 0, 1, or 2"]
+    D["3. environment<br/>d = demand 0, 1, or 2"]
+    T["4. next_state / transition<br/>started = min(4, s+a)<br/>sales = min(started, d)<br/>s' = started - sales"]
+    R["5. reward<br/>r = 2.0·sales - 0.2·s' - 1.5·stockout"]
+    N["6. tomorrow<br/>s ← s'  (memory)"]
+    S --> A --> D --> T --> R --> N
+    N -.-> S
+    classDef blue fill:#1F6FEB,stroke:#0E2A43,color:#ffffff
+    classDef navy fill:#10243E,stroke:#0E2A43,color:#ffffff
+    classDef gold fill:#8A6A2F,stroke:#5C4718,color:#ffffff
+    classDef red fill:#B42318,stroke:#7A1A12,color:#ffffff
+    class S,A blue
+    class D gold
+    class T navy
+    class R,N red

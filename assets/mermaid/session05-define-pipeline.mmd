@@ -1,0 +1,25 @@
+flowchart TB
+    subgraph DEFINE["DEFINE once"]
+      L["load_dataset"]
+      O["observe"]
+      LA["list_actions"]
+      DE["decide / policy"]
+      NS["next_state / transition"]
+      RW["reward"]
+      L --> O --> LA --> DE
+      DE --- NS
+      NS --- RW
+    end
+    subgraph PIPE["PIPELINE"]
+      RD["run_day<br/>observe → next_state → reward"]
+      RE["run_episode<br/>repeat + carry s'"]
+      RD --> RE
+    end
+    DE --> RD
+    NS --> RD
+    RW --> RD
+    classDef blue fill:#1F6FEB,stroke:#0E2A43,color:#ffffff
+    classDef navy fill:#10243E,stroke:#0E2A43,color:#ffffff
+    classDef gold fill:#8A6A2F,stroke:#5C4718,color:#ffffff
+    class L,O,LA,DE,NS,RW blue
+    class RD,RE navy
