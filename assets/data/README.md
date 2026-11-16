@@ -9,3 +9,6 @@ Real public business sources. No employer files. Do not paste confidential text 
 | `supermarket-sales.csv` | Public supermarket invoice file used in business analytics courses ([selva86/datasets](https://github.com/selva86/datasets)). Invoice-level sales, 2019. | Session 5+: empirical daily demand for the inventory MDP. |
 
 Class notebooks try the live API first (Frankfurter, CFPB search API), then fall back to these files so Colab still runs if a host blocks the request.
+
+| `inventory_dataset_full.csv` | Retail inventory ops log (Electronics+) | Session 6 real Electronics replenishment-exceptions desk |
+
