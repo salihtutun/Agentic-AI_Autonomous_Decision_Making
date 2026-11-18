@@ -1,6 +1,6 @@
-# Module 4 — Q-learning (Lab 4 path)
+# Module 4 — Q-learning
 
-Sessions 7 and 8 are an RL-based agent. Session 7 follows Fall 2025 **Lab 4 Monday** (Q fundamentals). Session 8 follows **Lab 4 Wednesday** on the **Electronics** desk (`inventory_dataset_full.csv`).
+Sessions 7 and 8 are an RL-based agent. Session 7 is Q-learning fundamentals (hand calc + 2-state toy). Session 8 walks the **Electronics** desk (`inventory_dataset_full.csv`).
 
 Click **Open in Colab** on Canvas. Do not download an `.ipynb` from the module.
 
@@ -11,8 +11,8 @@ Click **Open in Colab** on Canvas. Do not download an `.ipynb` from the module.
 
 ## In class
 
-- Session 7 (Lab Monday spirit): Q-table as decide, model-free update, peek `inventory_dataset.csv`, 2-state toy (fill rewards) until Low→Order / High→Reduce, CHANGE ME α/ε, one board update.
-- Session 8 (Lab Wednesday): toy 3-state → Electronics Low/Med/High → **you** write `epsilon_greedy` + `q_update` until CHECK 4 PASS → optional bins. DQN is Session 9.
+- Session 7: Q-table as decide, model-free update, peek `inventory_dataset.csv`, hand-calc Steps 1–10, 2-state toy (fill rewards) until Low→Order / High→Reduce, CHANGE ME α/ε.
+- Session 8: toy 3-state → Electronics Low/Med/High → **you** write `epsilon_greedy` + `q_update` until CHECK 4 PASS → optional bins. DQN is Session 9.
 - Homework 4: break the reward table (Reduce-when-Low) and write NOTE.
 - Quiz 4 covers Session 7; due before Session 8.
 
