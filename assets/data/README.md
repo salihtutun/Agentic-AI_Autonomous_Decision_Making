@@ -11,3 +11,4 @@ Real public business sources. No employer files. Do not paste confidential text 
 | `inventory_dataset_full.csv` | Course inventory desk (Electronics / Clothing / Food / Furniture / Books). | Session 8: **Electronics** Q-learning. Homework 4: **Clothing** Q-learning (same columns, new product filter). |
 
 Session 4 loads `amazon-fba-restock-daily.csv` first, or rebuilds the same table from `supermarket-sales.csv` if needed. CFPB notebooks may try a live search API, then fall back to the course CSV.
+| `portfolio_spy_daily.csv` | Yahoo Finance daily SPY (public). Built by `Teaching/_build_portfolio_dataset.py`. | Homework 4: portfolio Buy/Hold/Sell Q-learning (≥2000 days; Close, return, vol, momentum, volume, RSI, next-day return). |
