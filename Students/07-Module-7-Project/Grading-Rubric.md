@@ -2,7 +2,7 @@
 
 # Final Project Grading Rubric
 
-Salih Tutun, PhD · **100 points** · 30% of the course
+Salih Tutun, PhD · **100 points total** (Proposal **1** + Final Project **99**) · 30% of the course
 
 Grade with the filled `Report-Template.md`, the notebook that actually runs, and the Session 13 talk (~7 minutes). You may build an **LLM**, **RL**, or **hybrid** agent. A chatbot demo or a prediction-only DAT 5565 notebook is not enough. A sklearn / XGBoost / Keras model can sit **inside** the loop as a tool — it cannot be the whole project.
 
@@ -12,8 +12,10 @@ Grade with the filled `Report-Template.md`, the notebook that actually runs, and
 
 | Part | Points | What it is |
 | --- | --- | --- |
-| **A. Absolute checklist** | **70** | The must-haves: named dataset, approaches you combined, your rules, scorecard, **results explained in your own words**, governance, talk |
-| **B. Ranking score** | **30** | How your project stacks up against **everyone else’s** this term |
+| **0. Project proposal** (Canvas assignment) | **1** | Early plan submitted on time — see `Project-Proposal.md` |
+| **A. Absolute checklist** (Final Project) | **69** | The must-haves: named dataset, approaches you combined, your rules, scorecard, **results explained in your own words**, governance, talk |
+| **B. Ranking score** (Final Project) | **30** | How your project stacks up against **everyone else’s** this term |
+| **Course project total** | **100** | Proposal 1 + Final Project 99 |
 
 **Ranking matters a lot.** We reward a real idea, hard work, better data, more than one real approach, and a clear story about what the numbers mean. A thin synthetic demo with one approach will not climb the ranking just because something was submitted.
 
@@ -106,14 +108,13 @@ An **approach** is a distinct decision method that actually runs in your artifac
 
 ---
 
-# Part A — Absolute checklist (70 points)
+# Part A — Absolute checklist (69 points)
 
-## Section 1 — Title and team (2 points)
+## Section 1 — Title and team (1 point)
 
 | Criteria | Points | Description |
 | --- | --- | --- |
-| Title | 1 | Names the business process, not only a model name |
-| Team | 1 | All members listed; group of 1–3 |
+| Title + team | 1 | Names the business process (not only a model name) and lists all members (group of 1–3) |
 
 ---
 
@@ -311,7 +312,7 @@ Every project is compared to every other project. **Dataset tier** and **number 
 
 | Section | Max | Score |
 | --- | --- | --- |
-| 1. Title and team | 2 |  |
+| 1. Title and team | 1 |  |
 | 2. Problem and artifact | 7 |  |
 | 3. Agent loop | 10 |  |
 | 4. Why this family | 6 |  |
@@ -321,16 +322,18 @@ Every project is compared to every other project. **Dataset tier** and **number 
 | 8. Governance | 6 |  |
 | 9. Live presentation | 5 |  |
 | 10. Code / artifact quality | 5 |  |
-| **Part A subtotal** | **70** |  |
+| **Part A subtotal** | **69** |  |
 | B1. Idea quality | 6 |  |
 | B2. Effort / data / approaches | 6 |  |
 | B3. Solution clarity | 6 |  |
 | B4. Evaluation clarity | 6 |  |
 | B5. Impact / presentation | 6 |  |
 | **Part B ranking** | **30** |  |
-| **TOTAL** | **100** |  |
+| **Final Project subtotal** | **99** |  |
+| 0. Project proposal (Canvas) | 1 |  |
+| **COURSE PROJECT TOTAL** | **100** |  |
 
-Optional early **project proposal** (`Project-Proposal.md`) is feedback only unless Canvas scores it. State your planned **dataset tier** and **approach count** early.
+**Project proposal (1 point):** submit `Project-Proposal.md` answers to the Canvas **Project Proposal** assignment. State your planned **dataset tier** and **approach count**. The proposal does not replace the report or notebook.
 
 ---
 
