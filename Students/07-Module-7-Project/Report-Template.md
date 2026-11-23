@@ -2,7 +2,7 @@
 
 Salih Tutun, PhD · DAT 5668 · Agentic AI: Autonomous Decision-Making
 
-Fill this out with your group. We grade with `Grading-Rubric.md` (**70 absolute + 30 ranking**). Name your dataset. List the approaches you combined (one approach earns less; three or more that really run earn more). Write your own rules. **Most important: explain your results and evaluation in your own words** — not a pasted ChatGPT paragraph.
+Fill this out with your group. We grade with `Grading-Rubric.md` (**69 absolute + 30 ranking** on the Final Project; proposal is **1** point separately). Name your dataset. List the approaches you combined (one approach earns less; three or more that really run earn more). Write your own rules. **Most important: explain your results and evaluation in your own words** — not a pasted ChatGPT paragraph.
 
 Group members:
 
