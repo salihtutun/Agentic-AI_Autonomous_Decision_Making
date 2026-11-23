@@ -1,6 +1,6 @@
 # Module 7 — Design an agent for a real business problem
 
-One meeting (Session 13). Groups of 1–3. About 7 minutes each. This project is **30% of the course**.
+One meeting (Session 13). Groups of 1–3. About 7 minutes each. This project is **30% of the course** (**100 points**: Proposal **1** + Final Project **99**).
 
 Pick a **real process** a firm already runs. Build a **notebook you can run again** next week — on a new ticket, a new day of demand, or a new public feed. The agent can be LLM-based, RL-based, or hybrid. Sessions 1–12 already gave you the pieces; Session 13 is where you put them on one process and keep the file.
 
@@ -12,8 +12,8 @@ Open these files in order.
 - `Final-Project-Instructions.ipynb` (full guidelines, dataset & approaches ladders)
 - `Session-13.ipynb`
 - `Report-Template.md`
-- `Project-Proposal.md` (short early plan — optional unless Canvas lists a due date)
-- `Grading-Rubric.md` (**70 absolute + 30 ranking** across all projects)
+- `Project-Proposal.md` (**1 point** on Canvas — due Dec 7, 4:00 pm Central)
+- `Grading-Rubric.md` (**69 absolute + 30 ranking** = Final Project 99; + proposal 1 = 100)
 
 ## What you submit
 
