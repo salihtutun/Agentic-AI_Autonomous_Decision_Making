@@ -2,7 +2,7 @@
 
 # Final Project Proposal
 
-Salih Tutun, PhD · Groups of 1–3 · Half page to one page
+Salih Tutun, PhD · Groups of 1–3 · **1 point** on Canvas · Half page to one page
 
 ---
 
@@ -15,10 +15,11 @@ Write a short proposal **before** you build the full artifact — in your own wo
 - the data plan is legal and feasible,
 - you already know what “solved” means in a number the firm tracks.
 
-The proposal feeds the final `Report-Template.md`. It is **not** a substitute for the running notebook or the Session 13 talk. Final grades include a **30-point ranking across all projects** (idea, effort/data/approaches, solution clarity, evaluation clarity, presentation) — start defining clear rules now.
+The proposal feeds the final `Report-Template.md`. It is **not** a substitute for the running notebook or the Session 13 talk. Course project = **Proposal 1 + Final Project 99**. The final includes a **30-point ranking across all projects** — start defining clear rules now.
 
-**Due:** check Canvas (aim for about one week before the Dec 14 presentation so you still have time to revise).  
-**Format:** Markdown, Word, or PDF · upload to the Canvas proposal dropbox or discussion if one is open.  
+**Canvas:** **Project Proposal** assignment · **1 point**  
+**Due:** Monday, December 7 · **4:00 pm Central** (about one week before the Dec 14 talk so you still have time to revise)  
+**Format:** Markdown, Word, or PDF  
 **File name:** `Group[X]_Project_Proposal.pdf` (or `.md` / `.docx`).
 
 ---
