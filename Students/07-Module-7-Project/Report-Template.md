@@ -10,7 +10,7 @@ Starter card used, if any (or write “own problem”):
 
 Family (LLM, RL, or hybrid):
 
-Data and tools (simulated dataset, public data, or a free API from [public-apis](https://github.com/public-apis/public-apis) — never confidential employer files):
+Data and tools (simulated dataset, public data, or a free API from [public-apis](https://github.com/public-apis/public-apis). A fitted sklearn, XGBoost, or DAT 5565 Keras model may be a tool. It cannot be the whole artifact. Never confidential employer files):
 
 ## 1. The problem and the artifact
 
@@ -31,7 +31,7 @@ Write the reason in terms of the work, not the model name. If the process has bo
 
 ## 4. Evaluation against a baseline
 
-The notebook has to run. A chatbot demo or a prediction-only model from DAT 5565 is not an agent.
+The notebook has to run. A chatbot demo or a prediction-only model from DAT 5565 is not an agent. Calling that model as a tool inside the loop is allowed.
 
 Baseline (the simple rule, chatbot, or heuristic you compared with):
 
