@@ -2,6 +2,8 @@
 
 Salih Tutun, PhD · DAT 5668 · Agentic AI: Autonomous Decision-Making
 
+Use with `Grading-Rubric.md`. If you filed a project proposal, keep the same process and family here.
+
 Group members:
 
 Business problem (one real process the firm has to run):
